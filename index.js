@@ -14,6 +14,9 @@ app.use(express.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
     res.send("welcome to the my  server")
 })
+app.get('/suraj',(req,res)=>{
+    res.send("hello from suraj")
+})
 
 app.listen(port,(err)=>{
     if(err){
