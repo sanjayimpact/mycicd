@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.get('/',(req,res)=>{
-    res.send("welcome to the server")
+    res.send("welcome to the my  server")
 })
 
 app.listen(port,(err)=>{
